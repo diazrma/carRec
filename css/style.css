@@ -1,0 +1,50 @@
+html,
+body {
+  margin: 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container h1 {
+  font-size: 20px;
+  text-align: center;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container div {
+  width: 500px;
+  height: 100px;
+}
+.container .content {
+  width: 500px;
+  height: 250px;
+  border: solid 1px #000000;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.container img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+input[type="file"] {
+  display: none;
+}
+label {
+  padding: 20px 10px;
+  width: 480px;
+  background-color: #333;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  display: block;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.loading{
+    text-align: center;
+    display:none;
+}

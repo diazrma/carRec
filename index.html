@@ -1,0 +1,32 @@
+<html lang=”pt-br”>
+<meta charset=”UTF-8”>
+<meta name="viewport" content="initial-scale=1">
+
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.0.1"> </script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/mobilenet@1.0.0"> </script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    
+    <div class="container">
+        <div>
+            <h1>Simples reconhecimento de imagem usando TensorFlow</h1>
+            <form method="post" action="#"></form>
+            <label for="upload">Clique aqui para Enviar um arquivo</label>
+            <input id="upload" type="file">
+            </form>
+            <div class="content">
+           
+                <img id="img" src="img/default-img.png"></img>
+            </div>
+            <div id="loading" class="loading" >Carregando Aguarde...</div>
+            <div id="info"></div>
+        </div>
+    </div>
+</body>
+<script src="./js/upload.js"></script>
+<script src="./js/tensorflow.js"></script>
+
+</html>
