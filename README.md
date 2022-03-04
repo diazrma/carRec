@@ -1,3 +1,3 @@
-#Simples reconhecimento de imagem usando TensorFlow
+## Simples reconhecimento de imagem usando TensorFlow
 
-*https://www.tensorflow.org/
+**https://www.tensorflow.org/
